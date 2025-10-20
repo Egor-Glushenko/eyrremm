@@ -331,7 +331,7 @@ document.getElementById('orderForm').addEventListener('submit', async function(e
             // Создаем ссылку для отправки на почту
             const emailSubject = encodeURIComponent('Новый заказ украшения');
             const emailBody = encodeURIComponent(message);
-            const emailTo = 'jewelry.master@example.com'; // ЗАМЕНИТЕ НА РЕАЛЬНЫЙ EMAIL ДЕВУШКИ
+            const emailTo = 'samsung20152637@gmail.com'; // ЗАМЕНИТЕ НА РЕАЛЬНЫЙ EMAIL ДЕВУШКИ
             
             // Создаем mailto ссылку
             const mailtoLink = `mailto:${emailTo}?subject=${emailSubject}&body=${emailBody}`;
@@ -446,3 +446,4 @@ window.addEventListener('load', function() {
         document.body.style.opacity = '1';
     }, 100);
 });
+
