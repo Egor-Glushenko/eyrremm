@@ -8,9 +8,9 @@ tg.expand();
 // Configuration
 const BOT_CONFIG = {
     // Замените на токен вашего бота
-    BOT_TOKEN: 'YOUR_BOT_TOKEN_HERE',
+    BOT_TOKEN: '7384535948:AAG8iixpK8dKgQv8EE_ifxbj51JW6xZRTts',
     // Замените на ID чата, куда будут отправляться заказы
-    CHAT_ID: 'YOUR_CHAT_ID_HERE'
+    CHAT_ID: '817948942'
 };
 
 // Utility functions
@@ -304,3 +304,4 @@ window.addEventListener('load', function() {
         document.body.style.opacity = '1';
     }, 100);
 });
+
